@@ -1,0 +1,201 @@
+body{
+    font-family: 'poppins';
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    user-select: none;
+    height: 600vh;
+  }
+  a{
+    font-family: 'poppins';
+    font-size: 15px;
+    text-transform: uppercase;  
+    text-decoration: none;
+    color: #000;
+  }
+.container{
+    background: white;
+    padding: 2px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+ .A{
+    color: slategray;
+    padding: 5px;
+}
+ .B{
+    color: slategrey;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+ .score{
+    color: black;
+    margin-left: 10px;
+    font-family: 'poppins';
+}
+h5{
+    font-family: 'poppins';
+    font-size: 15px;
+}
+
+.container .odi{
+    background: red;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-top: 10px;
+    margin-left:100px;
+}
+
+.container .t20{
+    background:hotpink;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-left:20px;
+    margin-left:100px;
+}
+
+.container .test{
+    background:black;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-left:20px;
+}
+
+.container .t10{
+    background:green;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-left:20px;
+}
+
+.container .h{
+    background:violet;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    margin-left:20px;
+}
+.container .schedule{
+    background: grey;
+    display: flex;
+    justify-content: end;
+    padding: 5px; 
+    margin-top: 5px;  
+}
+.series .schedule{
+    display: flex;
+    justify-content: end;
+    padding: 5px; 
+    font-size: 10px;
+    margin-top: 5px;  
+}
+.match,.main,.photos,.series,.videos,.news,.series,.rank,.rankings,.footer{
+    background: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin: 3px;
+}      
+.match{
+    display: grid;
+    margin: 5px;
+    gap: 5px;
+    cursor: pointer;
+}
+.content{
+    background: white;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.main{
+    display:grid;
+    cursor: pointer;
+    gap: 5px;
+    margin: 5px;
+    place-items:start;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.main img{
+    width: 630px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.news{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.videos{
+    display:inline-block;
+    padding: 5px;
+}
+.videos iframe{
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.series{
+    padding: 5px;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.rankings{
+    display: grid;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.footer{
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li{
+    list-style: none;
+    display:inline;
+}
+.footer ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    color:rgb(32, 197, 95);
+}
+.footer ul li a:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(49, 31, 116);
+}
+@media screen and (max-width: 400px) {
+    .video iframe{
+        width: 330px;
+        border-radius: 10px;
+        margin: 40px;
+    }
+    .main img{
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        padding: 20px;
+    }
+    
+  }
